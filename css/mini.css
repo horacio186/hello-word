@@ -1,0 +1,14 @@
+.display-mini {
+    display: inherit !important;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select.display-mini {
+
+    font-size: 1.2em;
+    widows: 100%;
+
+}

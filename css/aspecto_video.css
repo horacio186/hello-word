@@ -1,0 +1,48 @@
+#video {
+width:400px;
+margin:20px auto;
+background:#FC3;
+padding: 5px;
+border: 2px solid #F60;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+
+
+}
+
+ nav {
+     /* margen de los contenedores*/
+     margin:5px 0;
+
+ }
+
+ #botones {
+     /* colocar a la izquierda y a continuacion lo rodee*/
+     float: left;
+     /* */
+     width: 100px;
+     height: 20px;
+
+ }
+
+ #barra {
+     /* cOLOR de la barra  de fondo*/
+     background: #FFF;
+     width: 320px;
+     height: 14px;
+     /* borde*/
+     border: 1px solid #666;
+     padding: 3px;
+     /* mover la barra a la derecha*/
+     margin-left: 60px;
+
+ }
+
+ #progreso {
+    position: absolute;
+    width: 0px;
+    height: 14px;
+    background: rgba(0,0,150,2);
+
+ }

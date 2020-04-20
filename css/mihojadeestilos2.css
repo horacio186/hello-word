@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+    html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+        padding: 0;
+        margin:0;
+        font-size:100%;
+        font-weight:normal;
+
+    }
+
+    table { border: collapse; border-spacing: 0;}
+    td,th, caption { font-weight: normal; text-align: left;}
+    img, fieldset { border: 0;}
+    ol { padding-left: 1.4em; list-style: decimal;}
+    ul { padding-left: 1.4em; list-style: square;}
+    q::before, q::after { content: '';}
+
+    /* fin del reset */
+
+    body {
+
+        font-size: 62.5%;
+    }
+
+    h1 {
+         /* TIPO DE LETRA y tamaño */
+        font:normal 2.4em verdana, geneva, sans-serif;
+         /* degradado del color */
+        background: -webkit-linear-gradient(top, #00F, #0CF);
+         /* que el h1 no ocupe la 100 de la pantalla */
+        width:35%;
+         /* bordes sean redondos */
+        border-radius: 10px;
+        /* separar h1 del borde superior y borde izquierdo y centrado */
+        margin: 15px auto;
+        /* centrar texto  */
+         text-align: center;
+        /* espacio arriba y abajo */
+        padding: 15px;
+         /* color texto */
+         color:#FFF;
+         /* sombreado al texto */
+          box-shadow: #00F 5px 5px 10px;
+         /* forma del sombreado */
+         text-shadow: #FFF 2px 2px 3px;
+    }
+
+    h2 {
+        font:bold 1.7em verdana, geneva, sans-serif;
+        padding: 5px 0 5px 0px;
+        color:#000;
+
+    }
+
+    section {
+         /* border superior arriba de las imagenes */
+         width: 91%;
+          /* border de la linea y color */
+         border-top: 1px dashed #999;
+          /* centrar la linea 15px de arriba y abajo, izq y der es auto */
+          margin: 15px auto;
+
+    }
+
+    figure {
+         /* sube la imagen y lo rodean a continuacion de otro */
+        float:left;
+    }
+
+/* aplique los cambios a img que esta dentro de figure */
+    figure img {
+         /* marco sin borde y  sin fondo separa la imagen del contenedor*/
+         padding: 4px;
+        /* color sombreado gris */
+        background-color: #666;
+        /* redondear las esquinas*/
+        border-radius: 20px;
+        /* que las transiciones sean suaves cuando se aplique un movimiento en la imagen */
+        /* ease-in-out  efecto que la imagen crezca y se achique  */
+         /* 0.3 seg indica cuanto dura el efecto*/
+        /* 0.1 seg indica cuanto se tarda en aplicar o comenzar el efecto*/
+        -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+          /* sombreado a la caja 5px horizontal y 5 vertical y 10px especie de relieve a la imagen*/
+        box-shadow: #999 5px 5px 10px;
+        }
+
+ /* seudoclase cuando pasa el mouse por arriba de la imagen*/
+    figure img:hover {
+        /* indica que en el navegador chrome la imagen crezca 1.2 */
+        -webkit-transform: scale(1.2);
+
+    }
+ f
+    figcaption {
+        /* color sombreado gris */
+        font:bold 1.7em verdana, geneva, sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+        /* margen arriba del texto vs la imagen*/
+        margin-top: 5px;
+    }
+
+    footer {
+         /* romper el float de la instruccion figure para que baje a la siguiente linea o al fondo */
+        clear: both;
+         /* separar el contenido  por arriba*/
+         padding-top: 100px;
+    }
+
+    footer p {
+        font:1.6em Georgia, "Times New Roman", Times, serif;
+        color:#666;
+          /* margen arriba y abajo de 10 y der e izq de 8*/
+        margin:10px 8px;
+    }

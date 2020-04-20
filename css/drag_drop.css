@@ -1,0 +1,16 @@
+#cajaimagen {
+    float:left;
+    width:300;
+    margin:30px;
+    border:1px solid #F00;
+
+}
+#zonadestino {
+    /*para posicionar el objeto que dejemos en esa zona se vaya a la izquierda*/
+    float:left;
+    width:550px;  
+    height:400px;
+    margin:100px;
+    border:1px solid #00F;  
+
+}
